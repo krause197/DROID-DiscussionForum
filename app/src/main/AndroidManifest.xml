@@ -18,7 +18,17 @@
             </intent-filter>
         </activity>
         <activity android:name=".ui.CreateAccountActivity" />
-        <activity android:name=".ui.MainActivity"></activity>
+        <activity android:name=".ui.MainActivity" />
+        <activity android:name=".ui.BoardsActivity">
+            <meta-data
+            android:name="android.support.PARENT_ACTIVITY"
+            android:value=".ui.MainActivity" />
+        </activity>
+        <activity android:name=".ui.NewMessageActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ui.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

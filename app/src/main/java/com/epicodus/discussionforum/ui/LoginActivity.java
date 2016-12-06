@@ -62,8 +62,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void createAuthProgressDialog() {
         mAuthProgressDialog = new ProgressDialog(this);
-        mAuthProgressDialog.setTitle("Loading...");
-        mAuthProgressDialog.setMessage("Authenticating with Firebase...");
+        mAuthProgressDialog.setTitle("Connecting to FBI Database...");
+        mAuthProgressDialog.setMessage("Contacting FBI to approve warrentless wiretap ...");
         mAuthProgressDialog.setCancelable(false);
     }
 
@@ -97,7 +97,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         String email = mEmailEditText.getText().toString().trim();
         String password = mPasswordEditText.getText().toString().trim();
         if (email.equals("")) {
-            mEmailEditText.setError("Please enter a name.");
+            mEmailEditText.setError("Please enter a email.");
             return;
         }
         mAuthProgressDialog.show();
