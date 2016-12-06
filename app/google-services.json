@@ -1,35 +1,35 @@
 {
   "project_info": {
-    "project_number": "876122043315",
-    "firebase_url": "https://restaurant-homework.firebaseio.com",
-    "project_id": "restaurant-homework",
-    "storage_bucket": "restaurant-homework.appspot.com"
+    "project_number": "482415554863",
+    "firebase_url": "https://android-myrestaurantshw.firebaseio.com",
+    "project_id": "android-myrestaurantshw",
+    "storage_bucket": "android-myrestaurantshw.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:876122043315:android:dff6c1b29d00d12f",
+        "mobilesdk_app_id": "1:482415554863:android:dff6c1b29d00d12f",
         "android_client_info": {
-          "package_name": "com.epicodus.discussionforum"
+          "package_name": "com.epicodus.myrestaurants"
         }
       },
       "oauth_client": [
         {
-          "client_id": "876122043315-06d65mh6aafj6enb7gug9mgph5pbvi5p.apps.googleusercontent.com",
+          "client_id": "482415554863-vna0geu4ttcfj2s990d044pgjodkmf0u.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.epicodus.discussionforum",
-            "certificate_hash": "E49C88D33EAC78EF4E39BF2894F479A0F129A25C"
+            "package_name": "com.epicodus.myrestaurants",
+            "certificate_hash": "3A35831A0BF507DEDB3D087C9BB7564C59AAA1E1"
           }
         },
         {
-          "client_id": "876122043315-gjfraieapt4kflbnbdhik2b1718snpp0.apps.googleusercontent.com",
+          "client_id": "482415554863-drogds1mifm44k41mf7bauh5cvddh7ng.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAYiwU64zawDCLnAomKumZaP83sY0sib4s"
+          "current_key": "AIzaSyA6ePQWJ7_sToitacWeB8QHICVOetf8MlA"
         }
       ],
       "services": {
@@ -40,7 +40,51 @@
           "status": 2,
           "other_platform_oauth_client": [
             {
-              "client_id": "876122043315-gjfraieapt4kflbnbdhik2b1718snpp0.apps.googleusercontent.com",
+              "client_id": "482415554863-drogds1mifm44k41mf7bauh5cvddh7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:482415554863:android:63ca200269631349",
+        "android_client_info": {
+          "package_name": "com.epicodus.discussionforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "482415554863-lfmekdpnq0tgh9vicus6cqq98djthe5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.discussionforum",
+            "certificate_hash": "099DF50E3B38C75B26857092B3497D7EEDB061CC"
+          }
+        },
+        {
+          "client_id": "482415554863-drogds1mifm44k41mf7bauh5cvddh7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA6ePQWJ7_sToitacWeB8QHICVOetf8MlA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "482415554863-drogds1mifm44k41mf7bauh5cvddh7ng.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
