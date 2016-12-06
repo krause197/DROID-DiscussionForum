@@ -36,7 +36,7 @@ public class Message {
 
     @Override
     public String toString(){
-        return title + author;
+        return "Title: " + title +". Author;  "+ author;
     }
 //
 //    public Date getDate() {

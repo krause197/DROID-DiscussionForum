@@ -6,9 +6,13 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import com.epicodus.discussionforum.Constants;
 import com.epicodus.discussionforum.R;
 import com.epicodus.discussionforum.models.Message;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -25,9 +29,6 @@ public class NewMessageActivity extends AppCompatActivity implements View.OnClic
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_new_message);
         ButterKnife.bind(this);
-
-        mMessage = new Message(mTitle.getText().toString(), mContent.getText().toString(), mAuthor.getText().toString());
-        Log.d("log", mMessage.toString());
         mSaveButton.setOnClickListener(this);
 
     }
@@ -35,9 +36,14 @@ public class NewMessageActivity extends AppCompatActivity implements View.OnClic
     @Override
     public void onClick(View view){
         if (view == mSaveButton) {
-            Log.d("log", "Title: " + mTitle.getText().toString());
-            Log.d("log", "Content: " + mContent.getText().toString());
-            Log.d("log", "Author: " + mAuthor.getText().toString());
+            String userTitle = mTitle.getText().toString();
+            String userContent = mContent.getText().toString();
+            String userAuthor = mAuthor.getText().toString();
+            mMessage = new Message(userTitle, userContent, userAuthor);
+            DatabaseReference messageRef = FirebaseDatabase.getInstance().getReference(Constants.FIREBASE_CHILD_MESSAGES);
+            messageRef.push().setValue(mMessage);
+            Toast.makeText(NewMessageActivity.this, "saved", Toast.LENGTH_SHORT).show();
+
             Log.d("log", "Message: " + mMessage);
         }
     }
