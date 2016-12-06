@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "876122043315",
+    "firebase_url": "https://restaurant-homework.firebaseio.com",
+    "project_id": "restaurant-homework",
+    "storage_bucket": "restaurant-homework.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:876122043315:android:dff6c1b29d00d12f",
+        "android_client_info": {
+          "package_name": "com.epicodus.discussionforum"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "876122043315-06d65mh6aafj6enb7gug9mgph5pbvi5p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.epicodus.discussionforum",
+            "certificate_hash": "E49C88D33EAC78EF4E39BF2894F479A0F129A25C"
+          }
+        },
+        {
+          "client_id": "876122043315-gjfraieapt4kflbnbdhik2b1718snpp0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYiwU64zawDCLnAomKumZaP83sY0sib4s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "876122043315-gjfraieapt4kflbnbdhik2b1718snpp0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

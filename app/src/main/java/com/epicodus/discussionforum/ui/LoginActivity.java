@@ -1,7 +1,9 @@
-package com.epicodus.discussionforum;
+package com.epicodus.discussionforum.ui;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.epicodus.discussionforum.R;
 
 public class LoginActivity extends AppCompatActivity {
 
