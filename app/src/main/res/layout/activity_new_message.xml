@@ -31,7 +31,7 @@
         android:hint="Your name"
         android:textAlignment="center"
         android:ems="10"
-        android:id="@+id/nameEditTextText3"
+        android:id="@+id/authorEditTextText"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/contentEditText"
         android:layout_alignStart="@+id/contentEditText"
@@ -46,4 +46,13 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="43dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:id="@+id/saveButton"
+        android:layout_marginBottom="32dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
 </RelativeLayout>

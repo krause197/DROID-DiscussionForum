@@ -33,6 +33,11 @@ public class Message {
     public String getAuthor() {
         return author;
     }
+
+    @Override
+    public String toString(){
+        return title + author;
+    }
 //
 //    public Date getDate() {
 //        return date;
