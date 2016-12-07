@@ -11,14 +11,16 @@ public class Message {
     private String title;
     private String content;
     private String author;
-//    private Date date;
+    private Date date;
 //    List<String> categories = new ArrayList<>();
+
+    public Message() {}
 
     public Message(String title, String content, String author) {
         this.title = title;
         this.content = content;
         this.author = author;
-//        this.date = new Date();
+        this.date = new Date();
 //        this.categories = categories;
     }
 
@@ -38,10 +40,10 @@ public class Message {
     public String toString(){
         return "Title: " + title +". Author;  "+ author;
     }
-//
-//    public Date getDate() {
-//        return date;
-//    }
+
+    public Date getDate() {
+        return date;
+    }
 //
 //    public List<String> getCategories() {
 //        return categories;
